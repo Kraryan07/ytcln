@@ -1,0 +1,145 @@
+.play-video{
+  flex-basis: 69%;
+}
+.play-video iframe{
+  width: 100%;
+  border-radius: 30px;
+  cursor: pointer;
+  height: 34vw;
+}
+.play-video h3{
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 22px;
+}
+.play-video-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #5a5a5a;
+}
+.play-video-info img{
+  margin-right: 8px;
+  width: 20px;
+}
+.play-video-info span{
+  display: inline-flex;
+  margin-left: 15px;
+  align-items: center;
+}
+.play-video hr {
+  margin: 10px 0;
+  border: 0;
+  background: #ccc;
+  height: 1px;
+}
+.publisher{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.publisher div{
+  flex: 1;
+  line-height: 18px;
+}
+.publisher img{
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 25px;
+  margin-left: 15px;
+}
+.publisher div p{
+  color: #000;
+  font-weight: 600;
+  font-size: 18px;
+}
+.publisher div span{
+  font-size: 15px;
+  color: #5a5a5a;
+}
+.publisher button{
+  background: red;
+  color: #fff;
+  padding: 8px 30px;
+  border: 0;
+  /* width: 150px; */
+  outline: 0;
+  border-radius:7px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.vid-desc{
+  padding-left: 45px;
+  margin: 15px 0;
+  color: #5a5a5a;
+}
+.vid-desc h4{
+  font-size: 16px;
+  margin-top: 15px;
+  color: #5a5a5a;
+}
+.comments{
+  display: flex;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+.comments img{
+   width: 35px;
+   border-radius: 50%;
+   margin-right: 15px;
+}
+.comments h3{
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+.comments h3 span{
+  font-size: 12px;
+  color: #5a5a5a;
+  font-weight: 500;
+  margin-left: 8px;
+  /* margin-top: 10px; */
+}
+.comment-action{
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+  font-size: 14px;
+}
+.comment-action img{
+  border-radius: 0;
+  width: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.comment-action span{
+  margin-right: 20px;
+  color: #5a5a5a;
+}
+.comment-action button{
+  color: #5a5a5a;
+  border-radius: 20px;
+  border: 1px solid black;
+  width: 50px;
+  cursor: pointer;
+}
+@media(max-width:900px){
+    .play-video{
+      flex-basis: 100%;
+    }
+    .play-video iframe{
+      width: 100%;
+      height: 50vw;
+    }
+    .vid-desc{
+       padding-left: 0;
+    }
+    .play-video .play-video-info span{
+      margin-left: 0;
+      margin-right: 15px;
+      margin-top: 15px;
+    }
+    
+}
